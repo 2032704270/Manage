@@ -57,7 +57,7 @@ export default {
         url: "?service=Request.getDataCount",
         method: "post",
       }).then(({ data: { data } }) => {
-        console.log(data)
+        // console.log(data)
         this.dataList = data;
         this.dataList.user.hmsg = "用户管理";
         this.dataList.user.bgcolor = "#00c0ef";

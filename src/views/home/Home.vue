@@ -41,7 +41,9 @@
         <el-container>
           <el-main>
             <!-- children -->
-            <router-view></router-view>
+            <keep-alive>
+              <router-view></router-view>
+            </keep-alive>
           </el-main>
           <!-- footer -->
           <el-footer>
